@@ -12,4 +12,4 @@
 
 3. Java 虚拟机机制屏蔽了底层运行平台的差别，实现了“一次编译，到处运行”。
 
-   ![](https://raw.githubusercontent.com/wehome-h/typora-images-repository/main/images/20240413152511.png)
+    ![](https://raw.githubusercontent.com/wehome-h/typora-images-repository/main/images/20240413152511.png)

@@ -16,18 +16,18 @@
 
     - 行尾风格（<strong style="color: #f3514f;">推荐</strong>）：
 
-      ```java
-      if (true) {
-         // code
-      }
-      ```
+        ```java
+        if (true) {
+           // code
+        }
+        ```
 
     - 次行风格：
-      ```java
-      if (true)
-      {
-         // code
-      }
-      ```
+        ```java
+        if (true)
+        {
+           // code
+        }
+        ```
 
 - [Java 代码规范](https://raw.githubusercontent.com/wehome-h/typora-images-repository/main/images/Java代码规范.docx)

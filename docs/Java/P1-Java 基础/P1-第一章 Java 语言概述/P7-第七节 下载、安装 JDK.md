@@ -2,13 +2,13 @@
 
 - [官网地址](https://www.oracle.com/java/technologies/downloads/)
 
-  ![](https://raw.githubusercontent.com/wehome-h/typora-images-repository/main/images/20240413153457.png)
+    ![](https://raw.githubusercontent.com/wehome-h/typora-images-repository/main/images/20240413153457.png)
 
-  ![](https://raw.githubusercontent.com/wehome-h/typora-images-repository/main/images/20240413153517.png)
+    ![](https://raw.githubusercontent.com/wehome-h/typora-images-repository/main/images/20240413153517.png)
 
-  > [!IMPORTANT] 安装细节说明：
-  > - 安装路径不要有中文或者特殊符号如空格等。比如 `D:\develop\Java\jdk1.8.0_131\`
-  > - 当提示安装 JRE 时，可以选择不安装，也可以安装。【<strong style="color: #409EFF;">推荐安装</strong>】
+    > [!IMPORTANT] 安装细节说明：
+    > - 安装路径不要有中文或者特殊符号如空格等。比如 `D:\develop\Java\jdk1.8.0_131\`
+    >- 当提示安装 JRE 时，可以选择不安装，也可以安装。【<strong style="color: #409EFF;">推荐安装</strong>】
 
 ## 1、安装步骤
 
@@ -34,7 +34,7 @@
 
 - 等待安装完成后弹出安装 JRE 的界面。
 
-  ![](https://raw.githubusercontent.com/wehome-h/typora-images-repository/main/images/20240413155310.png)
+    ![](https://raw.githubusercontent.com/wehome-h/typora-images-repository/main/images/20240413155310.png)
 
 ### ② 安装 JRE
 

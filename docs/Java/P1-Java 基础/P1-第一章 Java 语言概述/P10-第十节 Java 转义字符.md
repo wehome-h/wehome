@@ -11,23 +11,23 @@
 
 - **`\r`：一个回车**
 
-  ```java
-  public class EscapeCharacter {
-      public static void main(String[] args) {
-          System.out.println("我爱学习\r你好"); // [!code highlight]
-      }
-  }
-  ```
+    ```java
+    public class EscapeCharacter {
+        public static void main(String[] args) {
+            System.out.println("我爱学习\r你好"); // [!code highlight]
+        }
+    }
+    ```
 
-  ![](https://raw.githubusercontent.com/wehome-h/typora-images-repository/main/images/20240413210943.png)
+    ![](https://raw.githubusercontent.com/wehome-h/typora-images-repository/main/images/20240413210943.png)
 
-  解读：
-  1. 输出：你好学习
+    解读：
+    1. 输出：你好学习
   
-  2. \r 表示回车
+    2. \r 表示回车
 
-  3. 光标回到最前面，没有换行
+    3. 光标回到最前面，没有换行
 
-  4. 再输出你好，用你好替换我爱
+    4. 再输出你好，用你好替换我爱
 
-  5. 最终输出：你好学习
+    5. 最终输出：你好学习

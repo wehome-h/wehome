@@ -25,7 +25,7 @@
   }
   ```
 
-  ![](https://raw.githubusercontent.com/wehome-h/typora-images-repository/main/images/20240413173219.png)
+    ![](https://raw.githubusercontent.com/wehome-h/typora-images-repository/main/images/20240413173219.png)
 
 ## 4、运行原理示意图
 
@@ -40,7 +40,7 @@
 
 - **什么是编译**
 
-  `java Hello.java`
+    `java Hello.java`
 
     1. 有了 Java 源文件，通过编译器将其编译成 JVM 可以识别的字节码文件。
 
@@ -57,7 +57,7 @@
 
 - **Java 程序开发注意事项**
 
-  对修改后的 Hello.java 源文件需要<strong style="color: #f3514f;">重新编译</strong>，生成新的 class 文件后，再进行执行，才能剩下。
+    对修改后的 Hello.java 源文件需要<strong style="color: #f3514f;">重新编译</strong>，生成新的 class 文件后，再进行执行，才能剩下。
 
 ## 5、Java 执行流程分析
 

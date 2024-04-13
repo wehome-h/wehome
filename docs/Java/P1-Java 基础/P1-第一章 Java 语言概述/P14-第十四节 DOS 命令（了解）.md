@@ -4,7 +4,7 @@
 
 - DOS：Disk Operating System 磁盘操作系统。
 
-  ![](https://raw.githubusercontent.com/wehome-h/typora-images-repository/main/images/20240413222530.png)
+    ![](https://raw.githubusercontent.com/wehome-h/typora-images-repository/main/images/20240413222530.png)
 
 ## 2、相对路径和绝对路径
 
@@ -97,8 +97,8 @@
 
     - `help del`
 
-      ![](https://raw.githubusercontent.com/wehome-h/typora-images-repository/main/images/20240413223922.png)
+        ![](https://raw.githubusercontent.com/wehome-h/typora-images-repository/main/images/20240413223922.png)
 
     - `help cd`
 
-      ![](https://raw.githubusercontent.com/wehome-h/typora-images-repository/main/images/20240413224022.png)
+        ![](https://raw.githubusercontent.com/wehome-h/typora-images-repository/main/images/20240413224022.png)
