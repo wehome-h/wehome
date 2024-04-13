@@ -17,6 +17,9 @@ export default defineConfig({
     base: '/wehome/',
     cleanUrls: true,
     srcExclude: ['**/README.md'],
+    markdown: {
+        lineNumbers: true
+    },
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         logo: '/wehome.jpg',
@@ -31,12 +34,20 @@ export default defineConfig({
 
         search,
 
+        footer: {
+            // message: '基于 MIT 许可发布',
+            // copyright: `版权所有 © 2019-${new Date().getFullYear()} 尤雨溪`
+            message: 'wehome',
+            copyright: formatDate()
+        },
+
         docFooter: {
             prev: '上一页',
             next: '下一页'
         },
 
         outline: {
+            level: 'deep',
             label: '页面导航'
         },
 
@@ -54,3 +65,20 @@ export default defineConfig({
         darkModeSwitchTitle: '切换到深色模式'
     }
 })
+
+function formatDate() {
+    const date = new Date();
+    const year = date.getFullYear();
+    let month = date.getMonth() + 1;
+    let day = date.getDate();
+
+    if (month < 10) {
+        month = '0' + month;
+    }
+
+    if (day < 10) {
+        day = '0' + day;
+    }
+
+    return `${year}-${month}-${day}`
+}

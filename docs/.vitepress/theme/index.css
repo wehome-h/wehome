@@ -5,3 +5,21 @@
 .medium-zoom-image {
     z-index: 21;
 }
+
+.main img {
+    padding: 4px;
+    border-radius: 2px;
+    border: solid 1px #DCDFE6;
+}
+
+.main > div > div > ul > li, .main > div > div > ol > li {
+    margin: 30px 0;
+}
+
+.main > div > div > ul > li > *, .main > div > div > ol > li > * {
+    margin: 10px 0;
+}
+
+.main h3 {
+    margin: 30px 0;
+}
