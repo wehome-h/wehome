@@ -14,7 +14,7 @@
 
 7.  代码编写行尾风格和次行风格。
 
-    - 行尾风格（<strong style="color: #f3514f;">推荐</strong>）：
+    - 行尾风格【<strong style="color: #f3514f;">推荐</strong>】：
 
       ```java
       if (true) {

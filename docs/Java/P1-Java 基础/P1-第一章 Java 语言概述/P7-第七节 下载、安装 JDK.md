@@ -9,7 +9,7 @@
   > [!IMPORTANT] 安装细节说明：
   >
   > - 安装路径不要有中文或者特殊符号如空格等。比如 `D:\develop\Java\jdk1.8.0_131\`
-  > - 当提示安装 JRE 时，可以选择不安装，也可以安装。【<strong style="color: #409EFF;">推荐安装</strong>】
+  > - 当提示安装 JRE 时，可以选择不安装，也可以安装。【<strong style="color: #f3514f;">推荐安装</strong>】
 
 ## 1、安装步骤
 
