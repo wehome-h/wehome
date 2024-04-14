@@ -18,7 +18,8 @@ export default defineConfig({
   cleanUrls: true,
   srcExclude: ['**/README.md'],
   markdown: {
-    lineNumbers: true
+    lineNumbers: true,
+    math: true
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config

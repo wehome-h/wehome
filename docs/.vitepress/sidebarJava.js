@@ -74,6 +74,42 @@ export default () => {
                   link: 'P14-第十四节 DOS 命令（了解）'
                 }
               ]
+            },
+            {
+              text: '第二章 变量',
+              base: '/Java/P1-Java%20基础/P2-第二章%20变量/',
+              link: 'index',
+              collapsed: true,
+              items: [
+                {
+                  text: '第一节 关键字（keyword）',
+                  link: 'P1-第一节%20关键字（keyword）'
+                },
+                {
+                  text: '第二节 标识符（identifier）',
+                  link: 'P2-第二节%20标识符（identifier）'
+                },
+                {
+                  text: '第三节 变量',
+                  link: 'P3-第三节%20变量'
+                },
+                {
+                  text: '第四节 基本数据类型介绍',
+                  link: 'P4-第四节%20基本数据类型介绍'
+                },
+                {
+                  text: '第五节 基本数据类型变量间运算规则',
+                  link: 'P5-第五节%20基本数据类型变量间运算规则'
+                },
+                {
+                  text: '第六节 计算机底层如何存储数据',
+                  link: 'P6-第六节%20计算机底层如何存储数据'
+                },
+                {
+                  text: '第七节 运算符（Operator）【掌握】',
+                  link: 'P7-第七节%20运算符（Operator）【掌握】'
+                },
+              ]
             }
           ]
         }
