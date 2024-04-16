@@ -58,13 +58,17 @@
   margin-bottom: 48px;
 }
 
+.main > div > div > h2 {
+  margin-bottom: 32px;
+}
+
 .main > div > div > h2 + h3 {
-  margin: 30px 0;
+  margin: 32px 0;
 }
 
 .main > div > div > h3 {
   margin-top: 100px;
-  margin-bottom: 30px;
+  margin-bottom: 32px;
 }
 
 .vp-doc div[class*='language-'],
@@ -77,15 +81,35 @@
 }
 
 .main > div > div > * + .vp-raw {
-  margin-top: 32px !important;
+  margin-top: 48px !important;
 }
 
 .main > div > div > .vp-raw + * {
-  margin-top: 32px !important;
+  margin-top: 48px !important;
+}
+
+.main > div > div > .vp-raw + h2 {
+  margin-top: 48px !important;
+}
+
+.main > div > div > .vp-raw + h3 {
+  margin-top: 48px !important;
+}
+
+.main > div > div > .vp-raw + h4 {
+  margin-top: 48px !important;
+}
+
+.main > div > div > .vp-raw + h5 {
+  margin-top: 48px !important;
+}
+
+.main > div > div > .vp-raw + h6 {
+  margin-top: 48px !important;
 }
 
 .main > div > div > .vp-raw + .vp-raw {
-  margin-top: 100px !important;
+  margin-top: 48px !important;
 }
 
 .main > div > div > h1 + .vp-raw {
@@ -152,7 +176,7 @@
 .main code {
   color: #fff !important;
   font-weight: 700 !important;
-  background-color: #f3514f !important;
+  background-color: rgb(239, 112, 96) !important;
 }
 
 .main .vp-doc div[class*='language-'] code {
