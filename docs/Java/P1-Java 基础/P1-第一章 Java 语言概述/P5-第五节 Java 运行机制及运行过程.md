@@ -2,7 +2,7 @@
 
 ## 1、Java 语言的特点：跨平台性
 
-- ![](https://raw.githubusercontent.com/wehome-h/typora-images-repository/main/images/20240413152142.png)
+![](https://raw.githubusercontent.com/wehome-h/typora-images-repository/main/images/20240413152142.png)
 
 ## 2、核心机制 - Java 虚拟机
 

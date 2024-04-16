@@ -17,17 +17,17 @@
     - 行尾风格【<strong style="color: #f3514f;">推荐</strong>】：
 
       ```java
-      if (true) {
+      if (true) { // [!code focus] // [!code highlight]
           // code
-      }
+      } // [!code focus] // [!code highlight]
       ```
 
     - 次行风格：
       ```java
-      if (true)
-      {
+      if (true) // [!code focus] // [!code highlight]
+      { // [!code focus] // [!code highlight]
           // code
-      }
+      } // [!code focus] // [!code highlight]
       ```
 
-- [Java 代码规范](https://raw.githubusercontent.com/wehome-h/typora-images-repository/main/images/Java代码规范.docx)
+[Java 代码规范](https://raw.githubusercontent.com/wehome-h/typora-images-repository/main/images/Java代码规范.docx)

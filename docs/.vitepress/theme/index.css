@@ -12,7 +12,7 @@
   border: solid 1px #dcdfe6;
 }
 
-.main > div > div > ul > li,
+/* .main > div > div > ul > li,
 .main > div > div > ol > li {
   margin: 30px 0;
 }
@@ -52,13 +52,115 @@
   border-radius: 1px;
   transform: scale(0.5) rotate(45deg);
   background-color: #000;
+} */
+
+.main > div > div > h1 {
+  margin-bottom: 48px;
 }
 
-.main h3 {
+.main > div > div > h2 + h3 {
   margin: 30px 0;
+}
+
+.main > div > div > h3 {
+  margin-top: 100px;
+  margin-bottom: 30px;
 }
 
 .vp-doc div[class*='language-'],
 .vp-block {
   margin: 16px 0;
+}
+
+.main .vp-raw {
+  margin-top: 100px;
+}
+
+.main > div > div > * + .vp-raw {
+  margin-top: 32px !important;
+}
+
+.main > div > div > .vp-raw + * {
+  margin-top: 32px !important;
+}
+
+.main > div > div > .vp-raw + .vp-raw {
+  margin-top: 100px !important;
+}
+
+.main > div > div > h1 + .vp-raw {
+  margin-top: 0 !important;
+}
+
+
+.main > div > div > h2 + .vp-raw {
+  margin-top: 0 !important;
+}
+
+.main > div > div > h3 + .vp-raw {
+  margin-top: 0 !important;
+}
+
+.main > div > div > h4 + .vp-raw {
+  margin-top: 0 !important;
+}
+
+.main > div > div > h5 + .vp-raw {
+  margin-top: 0 !important;
+}
+
+.main > div > div > h6 + .vp-raw {
+  margin-top: 0 !important;
+}
+
+.main .vp-raw > h6 {
+  font-size: 14px;
+  border-bottom: 2px solid rgb(239, 112, 96);
+  margin-bottom: 16px;
+}
+
+.main .vp-raw > h6 > span.title {
+  display: inline-block;
+  font-weight: bold;
+  background-color: rgb(239, 112, 96);
+  color: #fff;
+  padding: 5px 10px 3px;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  margin-right: 64px;
+}
+
+.main .vp-raw > h6:last-of-type {
+  display: flex;
+  font-size: 14px;
+  justify-content: flex-end;
+  border-bottom: 2px solid rgb(239, 112, 96);
+}
+
+.main .vp-raw > h6:last-of-type > .title {
+  display: inline-block;
+  font-weight: bold;
+  background-color: rgb(239, 112, 96);
+  color: #fff;
+  margin: 0;
+  padding: 5px 10px 3px;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  margin-left: 64px !important;
+}
+
+.main code {
+  color: #fff !important;
+  font-weight: 700 !important;
+  background-color: #f3514f !important;
+}
+
+.main .vp-doc div[class*='language-'] code {
+  color: rgba(60, 60, 67, 0.78) !important;
+  font-weight: 400 !important;
+  background-color: transparent !important;
+}
+
+.main blockquote {
+  margin-left: 2em !important;
 }

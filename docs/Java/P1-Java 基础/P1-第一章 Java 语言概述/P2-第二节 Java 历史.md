@@ -14,4 +14,4 @@
 
 - [Java 版本发布详情](https://www.oracle.com/java/technologies/java-se-support-roadmap.html)。
 
-	![](https://raw.githubusercontent.com/wehome-h/typora-images-repository/main/images/20240413150037.png)
+  ![](https://raw.githubusercontent.com/wehome-h/typora-images-repository/main/images/20240413150037.png)

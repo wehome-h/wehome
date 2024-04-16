@@ -2,7 +2,7 @@
 
 ## 1、需求说明
 
-- 要求开发一个『Hello.java』程序，可以输出【HelloWorld!】
+要求开发一个『Hello.java』程序，可以输出【HelloWorld!】
 
 ## 2、开发步骤
 
@@ -14,53 +14,83 @@
 
 ## 3、HelloWorld
 
-- ```java
-  // public class Hello 表示 Hello 是一个类, 是一个 public 共有的类
-  public class Hello {
-      // 表示一个主方法, 即我们程序的入口
-      public static void main(String[] args) {
-          // 输出 HelloWorld 到屏幕
-          System.out.println("Hello World!");
-      }
-  }
-  ```
+```java
+// public class Hello 表示 Hello 是一个类, 是一个 public 共有的类
+public class Hello {
+    // 表示一个主方法, 即我们程序的入口
+    public static void main(String[] args) {
+        // 输出 HelloWorld 到屏幕
+        System.out.println("Hello World!");
+    }
+}
+```
 
-  ![](https://raw.githubusercontent.com/wehome-h/typora-images-repository/main/images/20240413173219.png)
+![](https://raw.githubusercontent.com/wehome-h/typora-images-repository/main/images/20240413173219.png)
 
 ## 4、运行原理示意图
 
-- ![](https://raw.githubusercontent.com/wehome-h/typora-images-repository/main/images/20240413171657.png)
+![](https://raw.githubusercontent.com/wehome-h/typora-images-repository/main/images/20240413171657.png)
 
-- ```sh
-  # 编译
-  javac Hello.java
-  # 运行
-  java Hello
-  ```
+```sh
+# 编译
+javac Hello.java
+# 运行
+java Hello
+```
 
-- **什么是编译**
+::: raw
 
-  `java Hello.java`
+<h6>
+  <span class="title">什么是编译</span>
+</h6>
 
-  1.  有了 Java 源文件，通过编译器将其编译成 JVM 可以识别的字节码文件。
+`java Hello.java`
 
-  2.  在该源文件目录下，通过 `javac.exe` 编译工具对 Hello.java 文件进行编译。
+1.  有了 Java 源文件，通过编译器将其编译成 JVM 可以识别的字节码文件。
 
-  3.  如果程序没有错误，没有任何提示，但在当前目录下会出现一个 Hello.class 文件，该文件称为字节码文件，也是可以执行的 Java 程序。
+2.  在该源文件目录下，通过 `javac.exe` 编译工具对 Hello.java 文件进行编译。
 
-- **什么是运行**
+3.  如果程序没有错误，没有任何提示，但在当前目录下会出现一个 Hello.class 文件，该文件称为字节码文件，也是可以执行的 Java 程序。
 
-  1.  有了可执行的 Java 程序（Hello.class 字节码文件）
+<h6>
+  <span class="title">什么是编译</span>
+</h6>
 
-  2.  通过运行工具 `java.exe` 对字节码文件进行执行，本质就是 .class 装载到 JVM 机执行。
+:::
 
-- **Java 程序开发注意事项**
+::: raw
 
-  对修改后的 Hello.java 源文件需要<strong style="color: #f3514f;">重新编译</strong>，生成新的 class 文件后，再进行执行，才能剩下。
+<h6>
+  <span class="title">什么是运行</span>
+</h6>
+
+1.  有了可执行的 Java 程序（Hello.class 字节码文件）
+
+2.  通过运行工具 `java.exe` 对字节码文件进行执行，本质就是 .class 装载到 JVM 机执行。
+
+<h6>
+  <span class="title">什么是运行</span>
+</h6>
+
+:::
+
+::: raw
+
+<h6>
+  <span class="title">Java 程序开发注意事项</span>
+</h6>
+
+对修改后的 Hello.java 源文件需要<strong style="color: #f3514f;">重新编译</strong>，生成新的 class 文件后，再进行执行，才能剩下。
+
+<h6>
+  <span class="title">Java 程序开发注意事项</span>
+</h6>
+
+:::
 
 ## 5、Java 执行流程分析
 
-- ![](https://raw.githubusercontent.com/wehome-h/typora-images-repository/main/images/20240413174442.png)
+![](https://raw.githubusercontent.com/wehome-h/typora-images-repository/main/images/20240413174442.png)
 
 ## 6、Java 开发注意事项和细节说明
 
