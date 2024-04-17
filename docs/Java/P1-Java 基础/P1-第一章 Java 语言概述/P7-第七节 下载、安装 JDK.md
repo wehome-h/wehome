@@ -6,6 +6,8 @@
 
 ![](https://raw.githubusercontent.com/wehome-h/typora-images-repository/main/images/20240413153517.png)
 
+<div class="br"></div>
+
 > [!IMPORTANT] 安装细节说明：
 >
 > - 安装路径不要有中文或者特殊符号如空格等。比如 `D:\develop\Java\jdk1.8.0_131\`

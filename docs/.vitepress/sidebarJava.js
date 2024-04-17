@@ -62,16 +62,16 @@ export default () => {
                   link: 'P11-第十一节%20初学%20Java%20易犯错误'
                 },
                 {
-                  text: '第十二节 注释（comment）',
-                  link: 'P12-第十二节%20注释（comment）'
+                  text: '第十二节 注释',
+                  link: 'P12-第十二节%20注释'
                 },
                 {
                   text: '第十三节 Java 代码规范',
                   link: 'P13-第十三节%20Java%20代码规范'
                 },
                 {
-                  text: '第十四节 DOS 命令（了解）',
-                  link: 'P14-第十四节 DOS 命令（了解）'
+                  text: '第十四节 DOS 命令',
+                  link: 'P14-第十四节 DOS 命令'
                 }
               ]
             },
@@ -82,12 +82,12 @@ export default () => {
               collapsed: true,
               items: [
                 {
-                  text: '第一节 关键字（keyword）',
-                  link: 'P1-第一节%20关键字（keyword）'
+                  text: '第一节 关键字',
+                  link: 'P1-第一节%20关键字'
                 },
                 {
-                  text: '第二节 标识符（identifier）',
-                  link: 'P2-第二节%20标识符（identifier）'
+                  text: '第二节 标识符',
+                  link: 'P2-第二节%20标识符'
                 },
                 {
                   text: '第三节 变量',
@@ -95,19 +95,53 @@ export default () => {
                 },
                 {
                   text: '第四节 基本数据类型介绍',
-                  link: 'P4-第四节%20基本数据类型介绍'
+                  link: 'P4-第四节%20基本数据类型介绍',
+                  collapsed: true,
+                  items: [
+                    {
+                      text: '第一点 整数类型',
+                      link: 'P4-1-第一点%20整数类型'
+                    },
+                    {
+                      text: '第二点 浮点类型',
+                      link: 'P4-2-第二点%20浮点类型'
+                    },
+                    {
+                      text: '第三点 字符串类型',
+                      link: 'P4-3-第三点%20字符串类型'
+                    },
+                    {
+                      text: '第四点 布尔类型',
+                      link: 'P4-4-第四点%20布尔类型'
+                    }
+                  ]
                 },
                 {
                   text: '第五节 基本数据类型变量间运算规则',
-                  link: 'P5-第五节%20基本数据类型变量间运算规则'
+                  link: 'P5-第五节%20基本数据类型变量间运算规则',
+                  collapsed: true,
+                  items: [
+                    {
+                      text: '第一点 自动类型提升',
+                      link: 'P5-1-第一点%20自动类型提升'
+                    },
+                    {
+                      text: '第二点 强制类型转换',
+                      link: 'P5-2-第二点强制类型转换'
+                    },
+                    {
+                      text: '第三点 基本数据类型与 String 的运算',
+                      link: 'P5-3-第三点%20基本数据类型与%20String%20的运算'
+                    }
+                  ]
                 },
                 {
-                  text: '第六节 计算机底层如何存储数据',
-                  link: 'P6-第六节%20计算机底层如何存储数据'
+                  text: '第六节 进制',
+                  link: 'P6-第六节%20进制'
                 },
                 {
-                  text: '第七节 运算符（Operator）【掌握】',
-                  link: 'P7-第七节%20运算符（Operator）【掌握】'
+                  text: '第七节 运算符',
+                  link: 'P7-第七节%20运算符'
                 },
               ]
             }
