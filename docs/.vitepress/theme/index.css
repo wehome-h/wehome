@@ -20,6 +20,14 @@
   list-style: square;
 }
 
+.main > div > div > .vp-raw > ul > li > ul > li {
+  list-style: circle;
+}
+
+.main > div > div > .vp-raw > ul > li > ul > li > ul > li {
+  list-style: square;
+}
+
 
 /* .main > div > div > ul > li,
 .main > div > div > ol > li {
@@ -80,7 +88,7 @@
   margin-bottom: 32px;
 }
 
-.main > div > div > h1 + ol, .main > div > div > h1 + ul {
+/* .main > div > div > h1 + ol, .main > div > div > h1 + ul {
   padding-left: 1em;
 }
 
@@ -106,7 +114,7 @@
 
 .main > div > div > ul, .main > div > div > ol {
   padding-left: 2em;
-}
+} */
 
 .vp-doc div[class*='language-'],
 .vp-block {

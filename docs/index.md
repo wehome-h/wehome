@@ -8,12 +8,12 @@ hero:
   tagline: 我亦无他，惟手熟尔
   image: /wehome.jpg
   actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+    # - theme: brand
+    #   text: Markdown Examples
+    #   link: /markdown-examples
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 迁移中……
+      # link: /api-examples
 #    - theme: brand
 #      text: Java
 #      link: /Java/index
