@@ -1,4 +1,4 @@
-package com.wehome.p4.p5;
+package com.wehome.p5;
 
 /**
  * USER wehome

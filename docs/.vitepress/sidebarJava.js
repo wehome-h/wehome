@@ -183,7 +183,38 @@ export default () => {
                   link: 'P8-第八节%20关于字符集'
                 }
               ]
-            }
+            },
+            {
+              text: '第三章 流程控制语句',
+              base: '/Java/P1-Java%20基础/P3-第三章%20流程控制语句/',
+              link: 'index',
+              collapsed: true,
+              items: [
+                {
+                  text: '第一节 流程控制语句简介',
+                  link: 'P1-第一节%20流程控制语句简介'
+                },
+                {
+                  text: '第二节 顺序结构',
+                  link: 'P2-第二节%20顺序结构'
+                },
+                {
+                  text: '第三节 分支语句',
+                  link: 'P3-第三节%20分支语句',
+                  collapsed: true,
+                  items: [
+                    {
+                      text: '第一点 if-else 条件判断结构',
+                      link: 'P3-1-第一点%20if-else%20条件判断结构'
+                    },
+                    {
+                      text: '第二点 switch-case 选择结构',
+                      link: 'P3-2-第二点%20switch-case%20选择结构'
+                    }
+                  ]
+                }
+              ]
+            },
           ]
         }
       ]
