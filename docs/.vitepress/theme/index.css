@@ -28,6 +28,22 @@
   list-style: square;
 }
 
+.main > div > div > .vp-raw > ol > li > ol > li {
+  list-style: lower-alpha;
+}
+
+.main > div > div > p + ul, .main > div > div > p + ol {
+  padding-left: 2em;
+}
+
+.main > div > div > .custom-block > p + ul, .main > div > div > .custom-block > p + ol {
+  padding-left: 2em;
+}
+
+.main .vp-raw > p + ol, .main .vp-raw > p + ul {
+  padding-left: 2em;
+}
+
 
 /* .main > div > div > ul > li,
 .main > div > div > ol > li {

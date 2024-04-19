@@ -212,6 +212,25 @@ export default () => {
                       link: 'P3-2-第二点%20switch-case%20选择结构'
                     }
                   ]
+                },
+                {
+                  text: '第四节 循环语句',
+                  link: 'P4-第四节%20循环语句',
+                  collapsed: true,
+                  items: [
+                    {
+                      text: '第一点 for 循环',
+                      link: 'P4-1-第一点%20for%20循环'
+                    },
+                    {
+                      text: '第二点 while 循环',
+                      link: 'P4-2-第二点%20while%20循环'
+                    },
+                    {
+                      text: '第三点 do-while 循环',
+                      link: 'P4-3-第三点%20do-while%20循环'
+                    }
+                  ]
                 }
               ]
             },

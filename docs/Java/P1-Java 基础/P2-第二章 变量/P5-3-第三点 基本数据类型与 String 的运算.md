@@ -30,6 +30,8 @@ String 不是基本数据类型，属于引用数据类型。
     String s4 = num + (b1 + s1); // 编译通过
     ```
 
+    <div class="br"></div>
+
 2.  String 类型不能通过强制类型 ( ) 转换，转为其它的类型。
 
     ```java
@@ -95,6 +97,8 @@ public class Info {
     System.out.println('a' + 1 + "Hello!"); // 98Hello!
     System.out.println("Hello" + 'a' + 1); // Helloa1
     ```
+
+    <div class="br"></div>
 
 2.  练习 2
 
