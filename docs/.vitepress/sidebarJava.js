@@ -229,8 +229,24 @@ export default () => {
                     {
                       text: '第三点 do-while 循环',
                       link: 'P4-3-第三点%20do-while%20循环'
+                    },
+                    {
+                      text: '第四点 对比三种循环结构',
+                      link: 'P4-4-第四点%20对比三种循环结构'
+                    },
+                    {
+                      text: '第五点 无限循环',
+                      link: 'P4-5-第五点%20无限循环'
+                    },
+                    {
+                      text: '第六点 嵌套循环（多重循环）',
+                      link: 'P4-6-第六点%20嵌套循环'
                     }
                   ]
+                },
+                {
+                  text: '第五节 break 和 continue 的使用',
+                  link: 'P5-第五节%20break%20和%20continue%20的使用'
                 }
               ]
             },
