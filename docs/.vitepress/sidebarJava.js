@@ -247,9 +247,33 @@ export default () => {
                 {
                   text: '第五节 break 和 continue 的使用',
                   link: 'P5-第五节%20break%20和%20continue%20的使用'
+                },
+                {
+                  text: '第六节 Scanner 键盘输入功能的实现',
+                  link: 'P6-第六节%20Scanner%20键盘输入功能的实现'
+                },
+                {
+                  text: '第七节 如何获取一个随机数',
+                  link: 'P7-第七节%20如何获取一个随机数'
                 }
               ]
             },
+            {
+              text: '第四章 IDEA 的安装与使用',
+              base: '/Java/P1-Java%20基础/P4-第四章%20IDEA%20的安装与使用/',
+              link: 'index',
+              collapsed: true,
+              items: [
+                {
+                  text: '第一节 IDEA 的安装与使用（上）',
+                  link: 'P1-第一节%20IDEA%20的安装与使用（上）'
+                },
+                {
+                  text: '第二节 IDEA 的安装与使用（下）',
+                  link: 'P2-第二节%20IDEA%20的安装与使用（下）'
+                }
+              ]
+            }
           ]
         }
       ]
