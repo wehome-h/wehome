@@ -249,3 +249,15 @@
 .main .br {
   height: 1px;
 }
+
+.main .highlighted {
+  background-color: rgba(16, 185, 129, .14) !important;
+}
+
+.main .has-focus {
+  background-color: unset !important;
+}
+
+.main .error {
+  background-color: rgba(244, 63, 94, 0.14) !important;
+}
