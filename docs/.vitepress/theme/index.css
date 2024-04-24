@@ -28,6 +28,10 @@
   list-style: square;
 }
 
+.main ul > li > ul > li {
+  list-style: circle !important;
+}
+
 .main > div > div > .vp-raw > ol > li > ol > li {
   list-style: lower-alpha;
 }
@@ -260,4 +264,21 @@
 
 .main .error {
   background-color: rgba(244, 63, 94, 0.14) !important;
+}
+
+.vp-doc blockquote {
+  display: block;
+  font-size: .9em;
+  overflow: auto;
+  border-left: 3px solid rgb(239, 112, 96);
+  color: #6a737d;
+  padding: 10px 10px 10px 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background: #fff9f9;
+  margin: 1rem 0px;
+}
+
+ol > li > ol > li {
+  list-style: lower-latin;
 }
