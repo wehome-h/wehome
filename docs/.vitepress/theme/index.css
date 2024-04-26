@@ -251,7 +251,7 @@
 }
 
 .main .br {
-  height: 1px;
+  height: 5px;
 }
 
 .main .highlighted {
@@ -281,4 +281,8 @@
 
 ol > li > ol > li {
   list-style: lower-latin;
+}
+
+ol > li > ol > li > ol > li {
+  list-style: lower-roman;
 }

@@ -347,6 +347,34 @@ export default () => {
                 {
                   text: '第七节 再谈方法',
                   link: 'P7-第七节%20再谈方法'
+                },
+                {
+                  text: '第八节 package、import',
+                  link: 'P8-第八节%20package、import'
+                },
+                {
+                  text: '第九节 封装性',
+                  link: 'P9-第九节%20封装性'
+                },
+                {
+                  text: '第十节 构造器',
+                  link: 'P10-第十节%20构造器'
+                },
+                {
+                  text: '第十一节 阶段性知识补充',
+                  link: 'P11-第十一节%20阶段性知识补充'
+                }
+              ]
+            },
+            {
+              text: '第七章 面向对象编程（进阶）',
+              base: '/Java/P1-Java%20基础/P7-第七章%20面向对象编程（进阶）/',
+              link: 'index',
+              collapsed: true,
+              items: [
+                {
+                  text: '第一节 this',
+                  link: 'P1-第一节%20this'
                 }
               ]
             }
