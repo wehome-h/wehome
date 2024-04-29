@@ -405,6 +405,30 @@ export default () => {
                   link: 'P8-第八节%20Object%20类的使用'
                 }
               ]
+            },
+            {
+              text: '第八章 面向对象编程（高级）',
+              base: '/Java/P1-Java%20基础/P8-第八章%20面向对象编程（高级）/',
+              link: 'index',
+              collapsed: true,
+              items: [
+                {
+                  text: '第一节 static',
+                  link: 'P1-第一节%20static'
+                },
+                {
+                  text: '第二节 单例设计模式',
+                  link: 'P2-第二节%20单例设计模式'
+                },
+                {
+                  text: '第三节 理解 main() 方法的语法',
+                  link: 'P3-第三节%20理解%20main%20方法的语法'
+                },
+                {
+                  text: '第四节 代码块',
+                  link: 'P4-第四节%20代码块'
+                }
+              ]
             }
           ]
         }
