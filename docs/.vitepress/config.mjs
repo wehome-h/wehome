@@ -13,7 +13,7 @@ export default defineConfig({
   lang: 'zh-CN',
   title: 'wehome',
   description: '我亦无他，惟手熟尔',
-  head: [['link', { rel: 'icon', href: 'favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   base: '/wehome/',
   cleanUrls: true,
   srcExclude: ['**/README.md'],
